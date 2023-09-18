@@ -1,0 +1,7 @@
+azure-ai-ml
+numpy
+pandas
+scikit-learn
+matplotlib
+mlflow
+azureml-mlflow

@@ -1,0 +1,9 @@
+$schema: https://azuremlschemas.azureedge.net/latest/amlCompute.schema.json 
+name: aml-cluster
+type: amlcompute
+size: STANDARD_DS3_v2
+min_instances: 0
+max_instances: 5
+
+# cli
+# az ml compute create --file compute.yml --resource-group my-resource-group --workspace-name my-workspace
